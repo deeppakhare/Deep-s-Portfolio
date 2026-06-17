@@ -94,7 +94,7 @@ export default function Hero() {
             <a href="#projects" className="px-8 py-3.5 rounded-full bg-white text-black font-semibold hover:scale-105 hover:shadow-[0_0_20px_rgba(255,255,255,0.4)] transition-all flex items-center justify-center">
               {t('hero.cta')}
             </a>
-            <a href="/resume.pdf" download className="px-8 py-3.5 rounded-full glass-panel border border-white/20 text-white font-medium hover:border-[#9d4edd]/50 hover:bg-[#9d4edd]/10 transition-colors flex items-center justify-center gap-2 group">
+            <a href="/resume/deep_resume.pdf" download className="px-8 py-3.5 rounded-full glass-panel border border-white/20 text-white font-medium hover:border-[#9d4edd]/50 hover:bg-[#9d4edd]/10 transition-colors flex items-center justify-center gap-2 group">
               <Download size={18} className="text-white/70 group-hover:text-[#9d4edd] transition-colors" />
               Resume
             </a>
