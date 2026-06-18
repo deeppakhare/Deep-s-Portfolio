@@ -13,13 +13,15 @@ export default function TerminalModal({ isOpen, onClose }: TerminalModalProps) {
     { type: 'text', text: 'Welcome to DeepOS v1.0.0 (Interactive Mode)' },
     { type: 'text', text: "Type 'help' to see available commands. Type 'exit' to close." }
   ]);
-  const bottomRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  useEffect(() => {
+ useEffect(() => {
     if (isOpen) {
       setTimeout(() => inputRef.current?.focus(), 100);
-      bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
+      if (containerRef.current) {
+        containerRef.current.scrollTop = containerRef.current.scrollHeight;
+      }
     }
   }, [isOpen, output]);
 
@@ -100,7 +102,7 @@ export default function TerminalModal({ isOpen, onClose }: TerminalModalProps) {
             </div>
 
             {/* Body */}
-            <div className="bg-[#1a1b26]/80 p-6 font-mono text-sm sm:text-base flex-1 overflow-y-auto custom-scrollbar" onClick={() => inputRef.current?.focus()}>
+            <div ref={containerRef} className="bg-[#1a1b26]/80 p-6 font-mono text-sm sm:text-base flex-1 overflow-y-auto custom-scrollbar" onClick={() => inputRef.current?.focus()}>
               {output.map((line, i) => (
                 <div key={i} className={`mb-2 ${line.type === 'cmd' ? 'text-[#e0c3fc]' : 'text-[#a9b1d6] whitespace-pre-wrap leading-relaxed'}`}>
                   {line.text}
@@ -122,12 +124,12 @@ export default function TerminalModal({ isOpen, onClose }: TerminalModalProps) {
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
                   className="flex-1 bg-transparent outline-none border-none text-[#a9b1d6] min-w-0"
-                  autoFocus
+                  // autoFocus
                   autoComplete="off"
                   spellCheck="false"
                 />
               </form>
-              <div ref={bottomRef} className="h-4" />
+              <div className="h-4" />
             </div>
           </motion.div>
         </motion.div>

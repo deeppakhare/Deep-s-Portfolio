@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import ParticleCursor from './components/ParticleCursor';
 import MusicPlayer from './components/MusicPlayer';
@@ -14,6 +14,14 @@ import Scene3D from './components/Scene3D';
 import './i18n';
 
 export default function App() {
+    useEffect(() => {
+    // Prevent browser from restoring scroll position
+    if ('scrollRestoration' in history) {
+      history.scrollRestoration = 'manual';
+    }
+    // Force scroll to top
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="relative min-h-screen bg-[#050505] selection:bg-[#9d4edd]/30 selection:text-white">
       {/* Background and Cursor */}

@@ -10,11 +10,13 @@ export default function TerminalSection() {
     { type: 'text', text: 'Welcome to DeepOS v1.0.0' },
     { type: 'text', text: "Type 'help' to see available commands." }
   ]);
-  const bottomRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, [output]);
+useEffect(() => {
+  if (containerRef.current) {
+    containerRef.current.scrollTop = containerRef.current.scrollHeight;
+  }
+}, [output]);
 
   const handleCommand = (cmd: string) => {
     const cleanCmd = cmd.trim().toLowerCase();
@@ -84,7 +86,7 @@ export default function TerminalSection() {
           </div>
 
           {/* Terminal Body */}
-          <div className="bg-[#1a1b26]/50 p-6 font-mono text-sm h-80 overflow-y-auto custom-scrollbar">
+          <div ref={containerRef} className="bg-[#1a1b26]/50 p-6 font-mono text-sm h-80 overflow-y-auto custom-scrollbar">
             {output.map((line, i) => (
               <div key={i} className={`mb-2 ${line.type === 'cmd' ? 'text-[#e0c3fc]' : 'text-[#a9b1d6] whitespace-pre-wrap leading-relaxed'}`}>
                 {line.text}
@@ -105,12 +107,11 @@ export default function TerminalSection() {
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 className="flex-1 bg-transparent outline-none border-none text-[#a9b1d6]"
-                autoFocus
+                // autoFocus
                 autoComplete="off"
                 spellCheck="false"
               />
             </form>
-            <div ref={bottomRef} />
           </div>
         </motion.div>
       </div>
