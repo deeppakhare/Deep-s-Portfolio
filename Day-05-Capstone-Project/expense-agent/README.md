@@ -471,7 +471,7 @@ If you found this project useful, please consider:
 
 ## 👨‍💻 Author
 
-**Deepak Hare**
+**Deep Pakhare**
 
 AI Engineer • Agentic AI Enthusiast • Google ADK Learner
 

@@ -1,44 +1,60 @@
 # 🚀 5-Day AI Agents: Intensive Vibe Coding Course With Google
 
-![Course](assets/course-banner.png)
+![Course Banner](assets/course-banner.png)
 
-## Overview
+## 📖 Overview
 
-This repository documents my learning journey through Kaggle's **5-Day AI Agents: Intensive Vibe Coding Course With Google**.
+This repository documents my complete learning journey through Kaggle's **5-Day AI Agents: Intensive Vibe Coding Course With Google**.
 
-During this program I explored the future of AI-assisted software development, Agentic Engineering, Google Antigravity, Agents CLI, ADK (Agent Development Kit), AI Studio, MCP, Agent Skills, Security, Evaluation, and real-world AI Agent workflows.
+Over five intensive days, I explored modern AI Agent development using Google's ecosystem, including **Gemini**, **Google AI Studio**, **Antigravity**, **Agents CLI**, and **Agent Development Kit (ADK 2.0)**.
 
-The goal of this repository is to maintain all assignments, projects, notes, resources, screenshots, and experiments completed throughout the five-day course.
+The repository contains:
+
+✅ Daily Assignments
+
+✅ Course Notes & Resources
+
+✅ Whitepaper Learnings
+
+✅ Codelab Implementations
+
+✅ AI Agent Projects
+
+✅ Screenshots & Documentation
+
+✅ Production-Oriented Agent Workflows
 
 ---
 
-## About Me
+## 👨‍💻 About Me
 
 **Deep Pakhare**
 
 Computer Science Engineering Student
 
-MERN Stack Developer | Frontend Developer | AI Enthusiast
+MERN Stack Developer • Frontend Developer • AI & Agent Engineering Enthusiast
+
+### Connect With Me
 
 * GitHub: https://github.com/deeppakhare
 * LinkedIn: https://www.linkedin.com/in/deeppakhare6669/
-* Portfolio: https://assignment-1-cyan-iota.vercel.app/
+* Portfolio: https://deep-s-portfolio-iota.vercel.app/
 
 ---
 
-# Course Progress
+# 🎯 Course Progress
 
-| Day    | Topic                                | Status         |
-| ------ | ------------------------------------ | -------------- |
-| Day 01 | Introduction to Agents & Vibe Coding | ✅ Completed    |
-| Day 02 | Agent Tools & Interoperability       | ✅ Completed    |
-| Day 03 | Agent Skills                         | ✅ Completed    |
-| Day 04 | Security & Evaluation                | 🚧 In Progress |
-| Day 05 | Capstone Project                     | ⏳ Pending      |
+| Day    | Topic                                | Status      |
+| ------ | ------------------------------------ | ----------- |
+| Day 01 | Introduction to Agents & Vibe Coding | ✅ Completed |
+| Day 02 | Agent Tools & Interoperability       | ✅ Completed |
+| Day 03 | Agent Skills                         | ✅ Completed |
+| Day 04 | Agent Security & Evaluation          | ✅ Completed |
+| Day 05 | Spec-Driven Production Development   | ✅ Completed |
 
 ---
 
-# Repository Structure
+# 📂 Repository Structure
 
 ```text
 5-Day-AI-Agents--Intensive-Vibe-Coding-Course-With-Google/
@@ -69,7 +85,8 @@ MERN Stack Developer | Frontend Developer | AI Enthusiast
 │   ├── screenshots/
 │   └── README.md
 │
-├── Day-05-Capstone-Project/
+├── Day-05-Spec-Driven-Production-Development/
+│   ├── Ambient-Expense-Agent/
 │   ├── resources/
 │   ├── screenshots/
 │   └── README.md
@@ -78,146 +95,180 @@ MERN Stack Developer | Frontend Developer | AI Enthusiast
 ```
 
 ---
-## Quick Navigation
 
-| Day | Topic | Open |
-|------|--------|--------|
-| Day 01 | Introduction to Agents & Vibe Coding | [Open](./Day-01-Introduction-To-Agents) |
-| Day 02 | Agent Tools & Interoperability | [Open](./Day-02-Agent-Tools-And-Interoperability) |
-| Day 03 | Agent Skills | [Open](./Day-03-Agent-Skills) |
-| Day 04 | Security & Evaluation | [Open](./Day-04-Agent-Security-And-Evaluation) |
-| Day 05 | Capstone Project | [Open](./Day-05-Capstone-Project) |
+# 🚀 Quick Navigation
 
+| Day    | Topic                                | Repository                                          |
+| ------ | ------------------------------------ | --------------------------------------------------- |
+| Day 01 | Introduction to Agents & Vibe Coding | [Open](./Day-01-Introduction-To-Agents)             |
+| Day 02 | Agent Tools & Interoperability       | [Open](./Day-02-Agent-Tools-And-Interoperability)   |
+| Day 03 | Agent Skills                         | [Open](./Day-03-Agent-Skills)                       |
+| Day 04 | Agent Security & Evaluation          | [Open](./Day-04-Agent-Security-And-Evaluation)      |
+| Day 05 | Spec-Driven Production Development   | [Open](./Day-05-Spec-Driven-Production-Development) |
 
-# Day Wise Learning Journey
+---
 
-## 🎒 Day 01 – Introduction to Agents & Vibe Coding
+# 🏆 Projects Built During The Course
 
-📂 Project Folder:
+| Project                                                                                    | Day    | Description                                            |
+| ------------------------------------------------------------------------------------------ | ------ | ------------------------------------------------------ |
+| [Deep's Portfolio](./Day-01-Introduction-To-Agents/Deep-s-Portfolio)                       | Day 01 | AI-assisted developer portfolio website                |
+| [Customer Support Agent](./Day-03-Agent-Skills/Customer-Support-Agent)                     | Day 03 | Workflow-based customer support agent using ADK        |
+| [Expense Approval Agent](./Day-04-Agent-Security-And-Evaluation/Expense-Approval-Agent)    | Day 04 | Secure expense processing with evaluation & guardrails |
+| [Ambient Expense Agent](./Day-05-Spec-Driven-Production-Development/Ambient-Expense-Agent) | Day 05 | Human-in-the-loop expense workflow using ADK 2.0       |
+
+---
+
+# 🎒 Day Wise Learning Journey
+
+## Day 01 – Introduction to Agents & Vibe Coding
+
+📂 Folder
 
 [Day-01-Introduction-To-Agents](./Day-01-Introduction-To-Agents)
 
-🔗 Direct GitHub Link:
-
-https://github.com/deeppakhare/5-Day-AI-Agents--Intensive-Vibe-Coding-Course-With-Google/tree/main/Day-01-Introduction-To-Agents
-
 ### Highlights
 
-* Learned Vibe Coding
-* Explored Agentic Engineering
-* Used Antigravity IDE
-* Built a Portfolio using Google AI Studio
-* Deployed project online
+* Vibe Coding Fundamentals
+* Agentic Engineering Concepts
+* Antigravity IDE
+* Google AI Studio
+* Cloud Run Deployment
 
 ### Project
 
-Deep's Portfolio
+#### 🚀 Deep's Portfolio
 
-Live Demo:
+Live Demo
 
-https://assignment-1-cyan-iota.vercel.app/
+https://deep-s-portfolio-iota.vercel.app/
 
-Project Source:
+Repository
 
 https://github.com/deeppakhare/Deep-s-Portfolio
 
 ---
 
-## 🎒 Day 02 – Agent Tools & Interoperability
+## Day 02 – Agent Tools & Interoperability
 
-📂 Project Folder:
+📂 Folder
 
 [Day-02-Agent-Tools-And-Interoperability](./Day-02-Agent-Tools-And-Interoperability)
 
-🔗 Direct GitHub Link:
-
-https://github.com/deeppakhare/5-Day-AI-Agents--Intensive-Vibe-Coding-Course-With-Google/tree/main/Day-02-Agent-Tools-And-Interoperability
-
 ### Highlights
 
-* Learned MCP Architecture
-* Explored Agent-to-Agent Communication
-* Used Antigravity CLI
-* Connected External Knowledge Sources
+* Model Context Protocol (MCP)
+* Agent-to-Agent Communication
+* Agent-to-UI Integration
+* Agent Payments Protocol
+* Antigravity CLI
 
 ---
 
-## 🎒 Day 03 – Agent Skills
+## Day 03 – Agent Skills
 
-📂 Project Folder:
+📂 Folder
 
 [Day-03-Agent-Skills](./Day-03-Agent-Skills)
 
-🔗 Direct GitHub Link:
-
-https://github.com/deeppakhare/5-Day-AI-Agents--Intensive-Vibe-Coding-Course-With-Google/tree/main/Day-03-Agent-Skills
-
 ### Highlights
 
-* Learned Agent Skills Architecture
-* Used Agents CLI
-* Built ADK Workflow
-* Tested Agent using Playground
+* ADK Skills Architecture
+* Workflow Routing
+* Agent Orchestration
+* Agents CLI
+* ADK Playground
 
 ### Project
 
-Customer Support Agent
+#### 🚀 Customer Support Agent
 
-Project Folder:
+Project Link
 
 https://github.com/deeppakhare/5-Day-AI-Agents--Intensive-Vibe-Coding-Course-With-Google/tree/main/Day-03-Agent-Skills/Customer-Support-Agent
 
+Features
+
+* Shipping Query Classification
+* FAQ Routing
+* Gemini Integration
+* Workflow-Based Execution
+
 ---
 
-## 🎒 Day 04 – Security & Evaluation
+## Day 04 – Agent Security & Evaluation
 
-📂 Project Folder:
+📂 Folder
 
 [Day-04-Agent-Security-And-Evaluation](./Day-04-Agent-Security-And-Evaluation)
 
-🔗 Direct GitHub Link:
-
-https://github.com/deeppakhare/5-Day-AI-Agents--Intensive-Vibe-Coding-Course-With-Google/tree/main/Day-04-Agent-Security-And-Evaluation
-
 ### Highlights
 
-* Human-in-the-Loop Workflows
-* Security Guardrails
 * Prompt Injection Defense
+* Security Guardrails
+* Human-in-the-Loop Systems
+* PII Protection
 * Agent Evaluation
 
 ### Project
 
-Expense Approval Agent
+#### 🚀 Expense Approval Agent
+
+Project Link
+
+https://github.com/deeppakhare/5-Day-AI-Agents--Intensive-Vibe-Coding-Course-With-Google/tree/main/Day-04-Agent-Security-And-Evaluation/Expense-Approval-Agent
+
+Features
+
+* Expense Classification
+* Auto Approval Workflow
+* Human Review Process
+* Prompt Injection Detection
+* Risk Analysis
 
 ---
 
-## 🎒 Day 05 – Capstone Project
+## Day 05 – Spec-Driven Production Development
 
-📂 Project Folder:
+📂 Folder
 
-[Day-05-Capstone-Project](./Day-05-Capstone-Project)
-
-🔗 Direct GitHub Link:
-
-https://github.com/deeppakhare/5-Day-AI-Agents--Intensive-Vibe-Coding-Course-With-Google/tree/main/Day-05-Capstone-Project
+[Day-05-Spec-Driven-Production-Development](./Day-05-Spec-Driven-Production-Development)
 
 ### Highlights
 
-* End-to-End Agent Development
-* Production Deployment
-* Evaluation & Monitoring
-* Final Project Showcase
+* Spec-Driven Development
+* Production AI Systems
+* Stateful Workflows
+* Session Persistence
+* Agent Runtime Concepts
 
-# Technologies Used
+### Project
 
-### AI
+#### 🚀 Ambient Expense Agent
 
-* Gemini
+Project Link
+
+https://github.com/deeppakhare/5-Day-AI-Agents--Intensive-Vibe-Coding-Course-With-Google/tree/main/Day-05-Spec-Driven-Production-Development/Ambient-Expense-Agent
+
+Features
+
+* ADK 2.0 Workflow API
+* Human-in-the-Loop Approval
+* Session Persistence
+* Stateful Workflow Execution
+* RequestInput Handling
+
+---
+
+# 🧠 Technologies Used
+
+### AI & Agent Development
+
+* Google Gemini
 * Google AI Studio
-* Antigravity
+* Antigravity IDE
 * Agents CLI
-* ADK 2.0
+* Google ADK 2.0
 
 ### Frontend
 
@@ -228,39 +279,47 @@ https://github.com/deeppakhare/5-Day-AI-Agents--Intensive-Vibe-Coding-Course-Wit
 
 ### Backend
 
+* Python
+* FastAPI
 * Node.js
 * Express.js
 
-### Tools
+### Cloud & Deployment
+
+* Vercel
+* Cloud Run
+* Google Cloud
+
+### Development Tools
 
 * Git
 * GitHub
-* Vercel
-* Cloud Run
+* UV Package Manager
+* Pydantic
 
 ---
 
-# Key Learnings
+# 🎓 Key Learning Outcomes
 
 Throughout this course I learned:
 
-* How AI Agents are changing software development
-* Vibe Coding workflows
-* Agentic Engineering principles
-* MCP and interoperability
-* ADK 2.0 graph workflows
-* Agent Skills architecture
-* Security and evaluation strategies
-* Human-in-the-loop systems
-* AI-powered application deployment
+* Vibe Coding & Agentic Engineering
+* AI Agent Development with ADK 2.0
+* MCP & Agent Interoperability
+* Workflow-Based Agent Design
+* Agent Skills Architecture
+* Human-in-the-Loop Systems
+* Prompt Injection Defense
+* PII Protection
+* Agent Evaluation Frameworks
+* Spec-Driven Development
+* Production AI Architectures
 
 ---
 
-# Screenshots
+# 📸 Project Gallery
 
-## Portfolio Project
-
-(Add screenshot here)
+## Deep's Portfolio
 
 `assets/portfolio-preview.png`
 
@@ -268,36 +327,55 @@ Throughout this course I learned:
 
 ## Customer Support Agent
 
-(Add screenshot here)
-
 `assets/customer-support-agent.png`
 
 ---
 
 ## Expense Approval Agent
 
-(Add screenshot here)
-
-`assets/expense-agent.png`
+`assets/expense-approval-agent.png`
 
 ---
 
-# Resources
+## Ambient Expense Agent
+
+`assets/ambient-expense-agent.png`
+
+---
+
+# 🏆 Course Completion Status
+
+✅ Day 01 Completed
+
+✅ Day 02 Completed
+
+✅ Day 03 Completed
+
+✅ Day 04 Completed
+
+✅ Day 05 Completed
+
+🎉 Successfully completed Kaggle's **5-Day AI Agents: Intensive Vibe Coding Course With Google**
+
+---
+
+# 🙌 Acknowledgements
+
+Special thanks to:
 
 * Kaggle
-* Google AI Studio
-* Antigravity
-* Agents CLI
-* Agent Development Kit (ADK)
+* Google AI
+* Google Cloud
+* Google ADK Team
+* Antigravity Team
+* Course Authors & Mentors
+
+for creating this incredible hands-on learning experience.
 
 ---
 
-# Author
+# ⭐ Support
 
-Deep Pakhare
+If you found this repository useful, consider giving it a star.
 
-Computer Science Engineering Student
-
-Building AI-powered applications and exploring Agentic Engineering.
-
-⭐ If you found this repository useful, consider starring it.
+**Made with ❤️ by Deep Pakhare**
