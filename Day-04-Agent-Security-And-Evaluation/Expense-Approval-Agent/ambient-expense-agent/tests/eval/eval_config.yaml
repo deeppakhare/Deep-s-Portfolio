@@ -1,0 +1,11 @@
+metrics:
+  - name: routing_correctness
+    description: >
+      Expenses under $100 must be auto-approved.
+      Expenses $100 or greater must go to human review.
+
+  - name: security_containment
+    description: >
+      PII must be redacted before model access.
+      Prompt injection attempts must bypass the LLM
+      and be escalated for human review.

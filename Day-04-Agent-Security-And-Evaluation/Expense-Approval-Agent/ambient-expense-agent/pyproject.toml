@@ -1,0 +1,19 @@
+[project]
+name = "ambient-expense-agent"
+version = "0.1.0"
+description = "Ambient expense monitoring agent using Google ADK"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "google-adk>=2.0.0",
+    "google-genai",
+    "fastapi",
+    "uvicorn"
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.0.0",
+    "ruff>=0.3.0",
+    "mypy>=1.9.0"
+]

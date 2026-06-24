@@ -1,0 +1,6 @@
+name: ambient-expense-agent
+agent_directory: expense_agent
+create_params:
+  agent: adk
+  deployment_target: none
+  prototype: true
